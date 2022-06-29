@@ -4,7 +4,7 @@
 const todos = [] /*creo un arreglo vacio para usar como memoria*/
 const todoForm = document.getElementById('todo-form') /*asigno el formulario a una constante para asignarle una funcion*/
 
-todoForm.onsubmit = (a) => {
+todoForm.onsubmit = (a) => { /*funcion con evento de submit */
 
     a.preventDefault(); /*evito que mi pagina se recargue y no perder lo guardado en mi arreglo 'todos'*/
 
